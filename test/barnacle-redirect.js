@@ -5,9 +5,9 @@ function dummyRequest() {
   return {
     connection: { encrypted: false },
     headers: {
-      host: 'example.org',
-      url: '/'
-    }
+      host: 'example.org'
+    },
+    url: '/'
   };
 }
 
@@ -15,9 +15,9 @@ function secureDummyRequest() {
   return {
     connection: { encrypted: true },
     headers: {
-      host: 'example.org',
-      url: '/'
-    }
+      host: 'example.org'
+    },
+    url: '/'
   };
 }
 
